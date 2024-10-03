@@ -55,10 +55,10 @@ function App() {
                       Lorem, ipsum dolor.
                     </Typography>
                     <Typography variant="body1">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint facilis debitis alias sit
-                      obcaecati deleniti, quis enim temporibus doloremque vel nobis consequuntur praesentium eligendi,
-                      consectetur consequatur totam nostrum maiores tempora error vero animi non placeat? Provident
-                      enim culpa numquam blanditiis?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint facilis debitis alias sit obcaecati
+                      deleniti, quis enim temporibus doloremque vel nobis consequuntur praesentium eligendi, consectetur
+                      consequatur totam nostrum maiores tempora error vero animi non placeat? Provident enim culpa
+                      numquam blanditiis?
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -68,14 +68,21 @@ function App() {
                   </CardActions>
                 </Card>
               </Grid>
-              
             ))}
           </Grid>
         </Container>
       </main>
-      <footer className={ classes.footer }>
-        <Typography variant="h6" align="center" gutterBottom>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, animi.</Typography>
-        <Typography color="grey" variant="subheading-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem optio sapiente laudantium ad atque inventore ab consectetur officiis a! Tenetur libero laboriosam error et ratione alias ab vero assumenda quidem!</Typography>
+      <footer className={classes.footer}>
+        <Paper variant="outlined" elevation={5}>
+          <Typography variant="h6" align="center" gutterBottom>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, animi.
+          </Typography>
+          <Typography color="grey" variant="subheading-2">
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem optio sapiente laudantium ad atque inventore ab
+            consectetur officiis a! Tenetur libero laboriosam error et ratione alias ab vero assumenda quidem!
+          </Typography>
+        </Paper>
       </footer>
     </>
   );
